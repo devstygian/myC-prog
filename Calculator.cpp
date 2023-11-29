@@ -16,26 +16,26 @@ int main()
     cin >>  operation;
     cout << "|__________________________________________|" << endl;
 
-    cout << "  Enter first number: ";
+    cout << " Enter first number: ";
     cin >> num1;
-    cout <<"  Enter Second number: ";
+    cout << " Enter Second number: ";
     cin >> num2;
     
     switch (operation)
     {
     case '+':
         cout << "|------------------------------------------|" << endl;
-        cout << "Result: " << num1 + num2 << endl;
+        cout << " Result: " << num1 + num2 << endl;
         cout << "|------------------------------------------|" << endl;
         break;
     case '-':
         cout << "|------------------------------------------|" << endl;
-        cout << "Result: " << num1 - num2 << endl;
+        cout << " Result: " << num1 - num2 << endl;
         cout << "|------------------------------------------|" << endl;
         break;
     case '*':
         cout << "|------------------------------------------|" << endl;
-        cout << "Result: " << num1 * num2 << endl;
+        cout << " Result: " << num1 * num2 << endl;
         cout << "|------------------------------------------|" << endl;
         break;
     case '/':
@@ -43,7 +43,7 @@ int main()
         if (num2 != 0)
         {
             cout << "|------------------------------------------|" << endl;
-            cout << "Result: " << num1 / num2 << endl;
+            cout << " Result: " << num1 / num2 << endl;
             cout << "|------------------------------------------|" << endl;
         }
         else
