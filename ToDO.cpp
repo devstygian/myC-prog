@@ -44,7 +44,7 @@ int main(){
         cout << "Make a Calculator                     "<<"DONE"<<endl;
         cout << "Make a Grade Calculator               "<<"DONE"<<endl;
         cout << "Create a Tic Tack Toe game            "<<"Unkown"<<endl;
-        cout << "Classified                            "<<"Classified"<<endl;
+        cout << "Make a LogIn system                   "<<"In Progress"<<endl;
         cout << "Classified                            "<<"Classified"<<endl;
         cout << "----------------------------------------------" << endl;
     }
